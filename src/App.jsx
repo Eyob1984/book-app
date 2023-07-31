@@ -1,5 +1,4 @@
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom'
-import React from 'react'
 import './App.css'
 import Nav from './Nav'
 import FetchData from './FetchData'

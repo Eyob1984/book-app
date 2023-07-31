@@ -17,7 +17,7 @@ function Nav() {
     <div>
       <p>Book App</p>
       <div>
-        <Link to='/api' onClick={handleBooks}>See all Books</Link>
+        <Link to='/api' onClick={handleBooks} className='button'>See all Books</Link>
         <button onClick={handleTitleButtonClick}>Search by Title</button>
         {showForm && (
           <form>

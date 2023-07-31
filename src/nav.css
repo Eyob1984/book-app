@@ -32,7 +32,20 @@ button {
 button:hover {
   background-color: #45a049;
 }
+.button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
 
+.button:hover {
+  background-color: #45a049;
+}
 form {
   display: flex;
   align-items: center;
