@@ -1,5 +1,7 @@
 import {useState} from 'react'
+import { Link } from 'react-router-dom'
 import './nav.css'
+
 function Nav() {
   const [showForm, setShowForm] = useState(false)
 
@@ -7,14 +9,15 @@ function Nav() {
     setShowForm(true)
   }
 
-  const handleAllButtonClick = () => {
+  const handleBooks = () => {
     setShowForm(false)
   }
+
   return (
     <div>
       <p>Book App</p>
       <div>
-        <button onClick={handleAllButtonClick}>See all Books</button>
+        <Link to='/api' onClick={handleBooks}>See all Books</Link>
         <button onClick={handleTitleButtonClick}>Search by Title</button>
         {showForm && (
           <form>
