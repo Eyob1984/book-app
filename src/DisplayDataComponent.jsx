@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useSelector } from "react-redux";
 
 function DisplayDataComponent() {
@@ -10,10 +10,9 @@ function DisplayDataComponent() {
         <div>
           {data.map((item, index) => (
             <div key={index}>
-              <p>{item.work.title}</p>
-              {item.work.author_names.map((ele) => {
-               return  (ele === ele)? ele : ele 
-              })}
+              <p>{item.strCategory}</p>
+              <img src={item.strCategoryThumb} alt={item.strCategory} />
+              <p>{item.strCategoryDescription}</p>
             </div>
           ))}
         </div>

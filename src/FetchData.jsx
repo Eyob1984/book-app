@@ -15,10 +15,10 @@ const dispatch = useDispatch()
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await axios.get('https://openlibrary.org/people/mekBot/books/currently-reading.json');
-        setData1(response.data.reading_log_entries);
-        setUpdateId(response.data.reading_log_entries[0].work.cover_id);
-        dispatch(setData(response.data.reading_log_entries))
+        const response = await axios.get('https://www.themealdb.com/api/json/v1/1/categories.php');
+        setData1(response.data.categories);
+        setUpdateId(response.data.categories);
+        dispatch(setData(response.data.categories))
       } catch (error) {
         console.error('Error fetching data:', error);
       }

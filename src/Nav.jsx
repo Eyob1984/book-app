@@ -15,7 +15,7 @@ function Nav() {
 
   return (
     <div>
-      <p>Book App</p>
+      <p>Food APP</p>
       <div>
         <Link to='/api' onClick={handleBooks} className='button'>See all Books</Link>
         <button onClick={handleTitleButtonClick}>Search by Title</button>
