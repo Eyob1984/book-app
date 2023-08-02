@@ -1,8 +1,51 @@
-# React + Vite
+# Food APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Contributors**:  Eyob Tamir
+**Version**: 1.0.0
 
-Currently, two official plugins are available:
+## Deployed Site
+[]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Problem Domain
+This application aims to aid the user in seaching a specific food from the menu or see all the list at once.
+
+## Overview
+This Application allows the user to search for a food! 
+* Users can search for a specific food by name, or they can narrow down their options for specific food by name.age.
+
+
+## Getting Started (for Devs)
+1.  fork the repository
+2.  clone it down locally
+3.  run `npm i` in terminal from inside repo to install dependencies
+
+## Project Management
+
+
+## Dependencies Required
+* React + Vite
+* React.js
+* @reduxjs/toolkit
+* react-redux
+* react-router-dom
+* axios
+* bootstrap
+
+
+## Architecture
+### Database Relationships
+
+
+
+## Change Log
+<!-- -->
+
+## Credits and Collaborations
+* Stack overflow
+* ChatGpt AI
+
+
+## Resources
+[Food API](https://www.themealdb.com/api/json/v1/1/categories.php)
+
+
