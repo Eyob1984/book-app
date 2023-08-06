@@ -4,7 +4,7 @@
 **Version**: 1.0.0
 
 ## Deployed Site
-[]()
+[site](https://gorgeous-macaron-56f2af.netlify.app/)
 
 ## Problem Domain
 This application aims to aid the user in seaching a specific food from the menu or see all the list at once.
@@ -43,9 +43,11 @@ This Application allows the user to search for a food!
 ## Credits and Collaborations
 * Stack overflow
 * ChatGpt AI
+* Google
 
 
 ## Resources
 [Food API](https://www.themealdb.com/api/json/v1/1/categories.php)
+
 
 
