@@ -10,7 +10,6 @@ function App() {
     <div>
       <Nav />
       <FetchData />
-      
     </div>
     </Router>
   )
